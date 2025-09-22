@@ -1,3 +1,14 @@
 {
-    "plugins": ["puml"]
+    "plugins": ["puml", "plantuml-cloud-languages-ok"],
+    "pluginsConfig": {
+    "plantuml-cloud-languages-ok": {
+      "protocol": "http",
+      "type": "plantuml-server",
+      "host": "www.plantuml.com",
+      "port": "80",
+      "path": "/plantuml/svg/",
+      "language": "asciidoc",
+      "format": "svg"
+    }
+  }
 }
