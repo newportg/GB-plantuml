@@ -39,9 +39,12 @@ a -> b
 
 ***
 
+Index.js 
+
 {% plantuml %}
 Bob->Alice : hello
 {% endplantuml %}
 
+***
 
 example site : https://github.com/GitbookIO/plugin-puml/blob/master/index.js
